@@ -1,0 +1,61 @@
+.screen-recorder-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.sss{
+  height: 100vh;
+}
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.record-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.record-button.recording {
+  background-color: #FF5733;
+}
+
+.download-button {
+  margin-left: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-button:disabled {
+  background-color: #CCCCCC;
+  cursor: not-allowed;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+.video-preview {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
